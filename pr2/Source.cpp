@@ -13,18 +13,18 @@ int main()
 {
 	double x; // Вхідний параметр
 	double y; // Вхідний параметр
-	double z1; // результат обчислення 1-го виразу
-	//double z2; // результат обчислення 2-го виразу
+	//double z1; // результат обчислення 1-го виразу
+	double z2; // результат обчислення 2-го виразу
 
 	cout << "x = "; cin >> x;
 	cout << "y = "; cin >> y;
 
-	z1 = cos(x) * cos(x) * cos(x) * cos(x) + sin(y) * sin(y) + 1. / 4 * (sin(x + x) * sin(x + x)) - 1;
-	//z2 = sin(x + y) * sin(y - x);
+	//z1 = cos(x) * cos(x) * cos(x) * cos(x) + sin(y) * sin(y) + 1. / 4 * (sin(x + x) * sin(x + x)) - 1;
+	z2 = sin(x + y) * sin(y - x);
 
 	cout << endl;
-	cout << "z1 = " << z1 << endl;
-	//cout << "z2 = " << z2 << endl;
+	//cout << "z1 = " << z1 << endl;
+	cout << "z2 = " << z2 << endl;
 
 	cin.get();
 	return 0;
